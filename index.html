@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: space-around;
+            gap:10px;
+            flex-wrap: wrap;
+            border: 2px solid green;
+            padding: 10px;
+            background-color: rgba(232, 229, 226, 0.171);
+            border-radius: 10px;
+        }
+        .main div{
+            border: 2px solid ;
+            height:80px;
+            width:100px;
+            border-radius: 5px;
+        }
+        .main2{
+            display: flex;
+            border:2px solid green;
+            justify-content: space-between;
+            gap:10px;
+            flex-wrap: wrap;
+            padding:10px;
+            border-radius: 10px;
+            background-color: rgba(232, 229, 226, 0.171);
+        }
+        .main2 div{
+            border:2px solid;
+            height:250px;
+            width:89px;
+            border-radius: 5px;
+        }
+        .grw{
+            display: flex;
+            flex-grow: 1;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color:firebrick;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>FLEX ITEM PROPERTIES</h1>
+    </div>
+    
+    <div class="main">
+        <div style="background-color: aqua;"></div>
+        <div style="background-color: lightcoral;"></div>
+        <div style="background-color: lavenderblush;"></div>
+        <div style="background-color: lightgreen;"></div>
+        <div style="background-color: lightgray;"></div>
+        
+        <div  style="background-color: lightblue;" ></div>
+        <div  style="background-color: lemonchiffon;"></div>
+        <div  style="background-color: lavender;"></div>
+    </div><br>
+    <div class="main2">
+        <div  style="background-color: palegreen;"></div>
+        <div  style="background-color: aqua;"></div>
+        <div class="grw"  style="background-color: papayawhip;"></div>
+        <div  style="background-color: peru;"></div>
+        <div  style="background-color: purple;"></div>
+    </div>
+    <br>
+    <div class="main">
+        <div  style="background-color: red;"></div>
+        <div  style="background-color: yellow;"></div>
+        <div  style="background-color: green;"></div>
+        <div  style="background-color: blue;"></div>
+        <div  style="background-color: aqua;"></div>
+        <div  style="background-color: orange;"></div>
+        <div  style="background-color: palevioletred;"></div>
+        <div  style="background-color: plum;"></div>
+    </div>
+
+</body>
+</html>
